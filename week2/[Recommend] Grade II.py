@@ -5,24 +5,24 @@ def main():
     """Input"""
     value = float(input())
     if value < 0  or  value > 100:
-        print("ERR")
+        return "ERR"
     elif value >= 95:
-        print("A")
+        return "A"
     elif value >= 90:
-        print("B+")
+        return "B+"
     elif value >= 85:
-        print("B")
+        return "B"
     elif value >= 80:
-        print("C+")
+        return "D+"
     elif value >= 75:
-        print("C")
+        return "D"
     elif value >= 70:
-        print("D+")
+        return "C+"
     elif value >= 65:
-        print("D")
+        return "C"
     elif value >= 60:
-        print("F+")
+        return "F+"
     else:
-        print("F")
+        return "F"
 
-main()
+print(main())
