@@ -1,8 +1,10 @@
 """[Recommend] Temperature"""
 
+
+import random
 def main():
     """Input"""
-    list_test = [12, 15, 16]
-    print(sum(list_test[:2]))
+    var = {"x": 2, "y": 1,"z": 4, "w": 3}
+    print(random.choice(list(var.keys())))
 
 main()

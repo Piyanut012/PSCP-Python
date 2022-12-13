@@ -19,4 +19,5 @@ def main():
         print(24900)
     elif capacity == "256" and wifi == "Wi-Fi + Cellular":
         print(29400)
+
 main()
